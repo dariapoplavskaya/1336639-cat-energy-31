@@ -1,0 +1,30 @@
+.card__title-link {
+  text-decoration: none;
+  color: $card-title-color;
+}
+
+.card__title {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: $secondary-font;
+  text-transform: uppercase;
+}
+
+.card__options {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.card__text {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.card__link {
+  text-decoration: none;
+}
+
+.card__title-link--to-all {
+  color: #111111;
+}
+

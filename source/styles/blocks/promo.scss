@@ -1,3 +1,21 @@
 .promo {
-  background-color: green;
+  background-color: $primary-color;
+}
+
+.promo__heading {
+  font-family: $secondary-font;
+  font-size: 36px;
+  line-height: 36px;
+  color: $white-text;
+}
+
+.promo__slogan {
+  font-family: $secondary-font;
+  font-size: 14px;
+  line-height: 14px;
+  color: $white-text;
+}
+
+.promo__link {
+  text-decoration: none;
 }

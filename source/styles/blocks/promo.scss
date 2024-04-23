@@ -1,11 +1,13 @@
 .promo {
   background-color: $primary-color;
+  text-align: center;
 }
 
 .promo__heading {
   font-family: $secondary-font;
   font-size: 36px;
   line-height: 36px;
+  font-weight: 400;
   color: $white-text;
 }
 

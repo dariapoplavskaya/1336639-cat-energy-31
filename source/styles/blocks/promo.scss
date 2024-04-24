@@ -4,18 +4,11 @@
 }
 
 .promo__heading {
-  font-family: $secondary-font;
-  font-size: 36px;
-  line-height: 36px;
-  font-weight: 400;
-  color: $white-text;
+  @include font($secondary-font, 36px, 36px, $light-text);
 }
 
 .promo__slogan {
-  font-family: $secondary-font;
-  font-size: 14px;
-  line-height: 14px;
-  color: $white-text;
+  @include font($secondary-font, 14px, 14px, $light-text);
 }
 
 .promo__link {

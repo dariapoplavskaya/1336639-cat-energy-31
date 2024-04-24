@@ -1,3 +1,7 @@
 .main-container__heading {
   @include font($secondary-font, 36px, 36px, $heading-color);
 }
+
+.main-container__additional-products {
+  margin: 0 auto;
+}

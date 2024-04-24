@@ -6,6 +6,14 @@
     );
   background-repeat: no-repeat;
   text-align: center;
+  width: 100%;
+  min-height: 302px;
+}
+
+.promo__wrapper {
+  background-color: $opacity-primary-color;
+  width: 100%;
+  height: 302px;
 }
 
 .promo__heading {

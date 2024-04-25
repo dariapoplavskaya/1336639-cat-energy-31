@@ -4,3 +4,14 @@
   text-decoration: none;
   color: inherit;
 }
+
+.copyright__icon::before {
+  content: "";
+  display: block;
+  min-width: 27px;
+  min-height: 34px;
+  background-color: $social-color;
+  mask-image: url("../../icons/stack.svg#html-academy");
+  mask-repeat: no-repeat;
+  mask-position: center;
+}

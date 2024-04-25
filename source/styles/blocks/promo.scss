@@ -18,10 +18,12 @@
 
 .promo__heading {
   @include font($secondary-font, 36px, 36px, $light-text);
+  margin: 0;
 }
 
 .promo__slogan {
   @include font($secondary-font, 14px, 14px, $light-text);
+  margin: 0;
 }
 
 .promo__link {

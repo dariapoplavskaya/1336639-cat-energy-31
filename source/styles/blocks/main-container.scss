@@ -1,7 +1,22 @@
 .main-container__heading {
   @include font($secondary-font, 36px, 36px, $heading-color);
+  margin: 0;
 }
 
-.main-container__additional-products {
-  margin: 0 auto;
+.main-container__promo {
+  margin-bottom: 20px;
+}
+
+.main-container__programs {
+  width: 280px;
+  margin: 0 auto 20px;
+}
+
+.main-container__benefits {
+  width: 280px;
+  margin: 0 auto 49px;
+}
+
+.main-container__example {
+  background-color: $extra-background;
 }

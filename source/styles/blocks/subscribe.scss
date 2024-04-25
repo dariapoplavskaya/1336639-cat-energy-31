@@ -1,7 +1,9 @@
 .subscribe__heading {
   @include font($secondary-font, 24px, 24px, $heading-color);
+  margin: 0;
 }
 
 .subscribe__text {
   @include font($secondary-font, 16px, 24px, $heading-color);
+  margin: 0;
 }

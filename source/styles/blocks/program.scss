@@ -1,10 +1,60 @@
+.program {
+  position: relative;
+  padding: 30px 33px 18px 20px;
+}
+
 .program__title {
   @include font($secondary-font, 24px, 37px, $heading-color);
   text-transform: uppercase;
+  margin: 0 0 29px 90px;
+}
+
+.program__description {
+  margin: 0;
 }
 
 .program__link {
   @include font($secondary-font, 16px, 16px, $heading-color);
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.program--slim::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: block;
+  background: $primary-color;
+  position: absolute;
+  top: 24px;
+  left: 20px;
+}
+
+.program--pro::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: block;
+  background: $primary-color;
+  position: absolute;
+  top: 24px;
+  left: 20px;
+}
+
+.program__icon-slim {
+  position: absolute;
+  top: 21px;
+  left: 27px;
+}
+
+.program__icon-pro {
+  position: absolute;
+  top: 35px;
+  left: 13px;
+}
+
+.program__mark {
+  margin-left: 15px;
 }

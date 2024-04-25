@@ -1,10 +1,12 @@
 .additional-products__heading {
   @include font($secondary-font, 24px, 24px, $heading-color);
+  margin: 0;
 }
 
 .additional-products__list {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 .additional-products__promotion {
@@ -12,6 +14,7 @@
   background-color: $opacity-primary-color;
   width: 280px;
   min-height: 290px;
+  margin: 0;
 }
 
 .additional-products__wrapper {

@@ -1,3 +1,7 @@
+.example {
+  padding: 0 20px;
+}
+
 .example__heading {
   @include font($secondary-font, 36px, 40px, $heading-color);
   margin: 0;

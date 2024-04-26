@@ -18,3 +18,16 @@
   mask-repeat: no-repeat;
   mask-position: center;
 }
+
+.copyright__icon:hover::after {
+  background-color: $primary-color;
+}
+
+.copyright__icon:hover:focus-visible {
+  background-color: $primary-color;
+}
+
+.copyright:active {
+  opacity: 30%;
+}
+

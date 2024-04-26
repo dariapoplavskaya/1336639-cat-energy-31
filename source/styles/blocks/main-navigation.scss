@@ -11,6 +11,10 @@
   text-decoration: none;
 }
 
+.main-navigation__link:hover {
+  opacity: 60%;
+}
+
 .main-navigation__toggle {
   content: "";
   display: block;

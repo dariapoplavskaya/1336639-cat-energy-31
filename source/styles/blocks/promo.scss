@@ -12,12 +12,14 @@
 
 .promo__wrapper {
   background-color: $opacity-primary-color;
+  padding: 27px 35px 0;
   min-height: 302px;
 }
 
 .promo__heading {
   @include font($secondary-font, 36px, 36px, $light-text);
   margin: 0;
+  margin-bottom: 25px;
 }
 
 .promo__slogan {

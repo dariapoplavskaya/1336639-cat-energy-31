@@ -1,6 +1,11 @@
+.additional-products {
+  padding: 0 20px;
+}
+
 .additional-products__heading {
   @include font($secondary-font, 24px, 24px, $heading-color);
   margin: 0;
+  margin-bottom: 36px;
 }
 
 .additional-products__list {
@@ -10,5 +15,6 @@
 }
 
 .additional-products__promotion {
+  width: 280px;
   margin: 0 auto;
 }

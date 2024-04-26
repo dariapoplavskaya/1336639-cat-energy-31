@@ -8,15 +8,20 @@
 }
 
 .main-container__programs {
-  width: 280px;
+  width: 100%;
   margin: 0 auto 20px;
 }
 
 .main-container__benefits {
-  width: 280px;
+  width: 100%;
   margin: 0 auto 49px;
 }
 
 .main-container__example {
   background-color: $extra-background;
+}
+
+.main-container__additional-products {
+  width: 100%;
+  margin: 0 auto;
 }

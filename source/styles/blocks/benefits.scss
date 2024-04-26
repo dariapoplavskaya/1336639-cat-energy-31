@@ -1,3 +1,7 @@
+.benefits {
+  padding: 0 20px;
+}
+
 .benefits__heading {
   @include font($secondary-font, 36px, 40px, $heading-color);
   margin: 0;

@@ -18,5 +18,19 @@
 .promotion__text {
   background-color: $opacity-primary-color;
   min-height: 290px;
+  margin: 0;
+  padding: 59px 61px 43px 58px;
+}
+
+.promotion__text::before {
+  content: "";
+  display: block;
+  min-width: 78px;
+  min-height: 80px;
+  background-color: $light-text;
+  mask-image: url("../../icons/stack.svg#gift-icon");
+  mask-repeat: no-repeat;
+  mask-position: center;
+  margin-bottom: 48px;
 }
 

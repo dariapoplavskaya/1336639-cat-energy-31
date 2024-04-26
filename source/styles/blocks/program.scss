@@ -36,6 +36,10 @@
   mask-image: url("../../icons/stack.svg#arrow-long");
 }
 
+.program__link:focus-visible::after {
+  mask-image: url("../../icons/stack.svg#arrow-long");
+}
+
 .program__link:active {
   opacity: 30%;
 }

@@ -1,13 +1,15 @@
 .social-list {
   list-style-type: none;
   margin: 0;
+  display: flex;
+  gap: 24px;
 }
 
 .social-list__link {
   text-decoration: none;
 }
 
-.social-list__link--vkontakte::before {
+.social-list__link--vkontakte {
   content: "";
   display: block;
   min-width: 28px;

@@ -3,9 +3,12 @@
   line-height: 20px;
   text-decoration: none;
   color: inherit;
+  display: flex;
+  gap: 140px;
+  align-items: center;
 }
 
-.copyright__icon::before {
+.copyright__icon::after {
   content: "";
   display: block;
   min-width: 27px;

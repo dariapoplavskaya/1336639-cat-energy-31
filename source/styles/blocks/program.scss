@@ -17,6 +17,19 @@
   @include font($secondary-font, 16px, 16px, $heading-color);
   text-decoration: none;
   text-transform: uppercase;
+  display: flex;
+  gap: 15px;
+}
+
+.program__link::after {
+  content: "";
+  display: block;
+  min-width: 32px;
+  min-height: 10px;
+  background-color: #000000;
+  mask-image: url("../../icons/stack.svg#arrow-short");
+  mask-repeat: no-repeat;
+  mask-position: center;
 }
 
 .program--slim::before {
@@ -53,8 +66,4 @@
   position: absolute;
   top: 35px;
   left: 13px;
-}
-
-.program__mark {
-  margin-left: 15px;
 }

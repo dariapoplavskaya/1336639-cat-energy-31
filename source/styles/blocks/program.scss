@@ -9,16 +9,13 @@
   margin: 0 0 29px 90px;
 }
 
-.program__description {
-  margin: 0;
-}
-
 .program__link {
   @include font($secondary-font, 16px, 16px, $heading-color);
   text-decoration: none;
   text-transform: uppercase;
   display: flex;
   gap: 15px;
+  padding-top: 15px;
 }
 
 .program__link::after {
@@ -94,6 +91,12 @@
   position: absolute;
   top: 35px;
   left: 13px;
+}
+
+.program__description {
+  margin: 0;
+  padding-bottom: 23px;
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .program__icon-slim {

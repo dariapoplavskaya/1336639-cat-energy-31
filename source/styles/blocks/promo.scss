@@ -19,6 +19,7 @@
   min-width: 280px;
   padding: 27px 35px 0;
   text-align: center;
+  margin-bottom: 29px;
 }
 
 .promo__heading {
@@ -29,9 +30,17 @@
 
 .promo__slogan {
   @include font($secondary-font, 14px, 14px, $light-text);
+  text-transform: uppercase;
   margin: 0;
+}
+
+.promo__image {
+  display: block;
+  margin: 0 auto;
 }
 
 .promo__link {
   text-decoration: none;
+  min-width: 280px;
+  margin: 0 20px;
 }

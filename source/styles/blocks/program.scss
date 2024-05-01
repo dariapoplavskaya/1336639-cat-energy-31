@@ -1,6 +1,6 @@
 .program {
   position: relative;
-  padding: 30px 33px 18px 20px;
+  padding: 30px 20px 18px;
 }
 
 .program__title {
@@ -56,8 +56,8 @@
 .program--slim::after {
   content: "";
   display: block;
-  min-width: 36px;
-  min-height: 50px;
+  width: 36px;
+  height: 50px;
   background-color: #000000;
   mask-image: url("../../icons/stack.svg#cat-slim");
   mask-repeat: no-repeat;
@@ -82,8 +82,8 @@
 .program--pro::after {
   content: "";
   display: block;
-  min-width: 67px;
-  min-height: 28px;
+  width: 67px;
+  height: 28px;
   background-color: #000000;
   mask-image: url("../../icons/stack.svg#cat-pro");
   mask-repeat: no-repeat;

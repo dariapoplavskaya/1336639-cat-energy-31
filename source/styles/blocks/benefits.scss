@@ -42,7 +42,7 @@
   background-size: 30px 32px;
 }
 
-.benefits__item--consistency::after {
+.benefits__item--consistency::before {
   content: "";
   display: block;
   background-image: url("../../icons/stack.svg#boiling-icon");
@@ -51,7 +51,7 @@
   background-size: 26px 29px;
 }
 
-.benefits__item--meal::after {
+.benefits__item--meal::before {
   content: "";
   display: block;
   background-image: url("../../icons/stack.svg#meal-icon");
@@ -60,7 +60,7 @@
   background-size: 25px 30px;
 }
 
-.benefits__item--effect::after {
+.benefits__item--effect::before {
   content: "";
   display: block;
   background-image: url("../../icons/stack.svg#clocks-icon");

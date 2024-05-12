@@ -20,6 +20,10 @@
   opacity: 60%;
 }
 
+.main-navigation__link:focus-visible {
+  opacity: 60%;
+}
+
 .main-navigation__link:active {
   opacity: 30%;
 }
@@ -31,6 +35,7 @@
   border: none;
   padding: 0;
   cursor: pointer;
+  display: none;
 }
 
 .main-navigation__toggle::before {

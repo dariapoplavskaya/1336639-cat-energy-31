@@ -30,11 +30,13 @@
 }
 
 .program__link:hover::after {
-  mask-image: url("../../icons/stack.svg#arrow-long");
+  transform-origin: 0;
+  transform: scaleX(1.33);
 }
 
 .program__link:focus-visible::after {
-  mask-image: url("../../icons/stack.svg#arrow-long");
+  transform-origin: 0;
+  transform: scaleX(1.33);
 }
 
 .program__link:active {

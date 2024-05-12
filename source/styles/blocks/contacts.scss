@@ -1,7 +1,9 @@
 .contacts__wrapper {
-  width: 280px;
   padding: 26px 20px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 
 .contacts__cooperation {

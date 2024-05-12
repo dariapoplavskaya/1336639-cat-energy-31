@@ -20,7 +20,20 @@
   opacity: 60%;
 }
 
+.main-navigation__link:active {
+  opacity: 30%;
+}
+
 .main-navigation__toggle {
+  min-width: 24px;
+  min-height: 24px;
+  background-color: inherit;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.main-navigation__toggle::before {
   content: "";
   display: block;
   min-width: 24px;

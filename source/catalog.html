@@ -15,16 +15,20 @@
 
 <body class="page__body">
   <header class="main-header">
-    <a class="main-header__logotype logotype" href="index.html">
-      <picture>
-        <source width="70" height="59" type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logotype-picture-desktop.svg">
-        <source width="60" height="50" type="image/svg+xml" media="(min-width: 768px)" srcset="images/logotype-picture-tablet.svg">
-        <img class="logotype__picture" src="images/logotype-picture-mobile.svg" width="33" height="38" alt="Логотип Cat Energy">
-      </picture>
-      <img class="logotype__name" src="images/logotype-name.svg" width="101" height="18" alt="Товарный знак Cat Energy">
-    </a>
-    <nav class="main-header__main-navigation main-navigation">
-      <button class="main-navigation__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+    <div class="main-header__wrapper">
+      <a class="main-header__logotype logotype" href="index.html">
+        <picture>
+          <source width="70" height="59" type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logotype-picture-desktop.svg">
+          <source width="60" height="50" type="image/svg+xml" media="(min-width: 768px)" srcset="images/logotype-picture-tablet.svg">
+          <img class="logotype__picture" src="images/logotype-picture-mobile.svg" width="33" height="38" alt="Логотип Cat Energy">
+        </picture>
+        <img class="logotype__name" src="images/logotype-name.svg" width="101" height="18" alt="Товарный знак Cat Energy">
+      </a>
+      <button class="main-navigation__toggle main-navigation__toggle--open" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+    </div>
+    <nav class="main-header__main-navigation main-navigation main-header__main-navigation--close">
       <ul class="main-navigation__list">
         <li class="main-navigation__item">
           <a class="main-navigation__link" href="index.html">Главная</a>

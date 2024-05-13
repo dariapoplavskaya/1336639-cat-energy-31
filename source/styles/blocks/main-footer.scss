@@ -1,13 +1,12 @@
 .main-footer__wrapper {
   background-color: $accent-background;
   padding: 40px 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
 }
 
 .main-footer__logotype {
-  justify-content: center;
+  display: block;
+  text-align: center;
+  padding-bottom: 19px;
 }
 
 .main-footer__logotype:hover {

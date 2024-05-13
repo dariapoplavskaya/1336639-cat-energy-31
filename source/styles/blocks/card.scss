@@ -1,18 +1,39 @@
+.card {
+  display: grid;
+  grid-template-areas:
+    "image  title"
+    "image  properties"
+    "button button";
+  padding: 20px 20px 25px;
+}
+
+.card__image-link {
+  grid-area: image;
+}
+
 .card__title-link {
   @include font($secondary-font, 16px, 20px, $card-title-color);
   text-decoration: none;
   text-transform: uppercase;
+  grid-area: title;
 }
 
 .card__title {
   font: inherit;
   margin: 0;
+  max-width: 76px;
 }
 
 .card__options {
   font-size: 12px;
   line-height: 16px;
   margin: 0;
+  grid-area: properties;
+}
+
+.card__option {
+  display: flex;
+  justify-content: space-between;
 }
 
 .card__text {
@@ -23,6 +44,7 @@
 
 .card__link {
   text-decoration: none;
+  grid-area: button;
 }
 
 .card__title-link--to-all {

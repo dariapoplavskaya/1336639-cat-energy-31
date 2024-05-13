@@ -29,7 +29,7 @@
   box-sizing: border-box;
   padding: 0;
   border: none;
-  cursor: pointer;
+  cursor: col-resize;
   position: relative;
 }
 
@@ -58,4 +58,31 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.slider__button:hover,
+.slider__button:focus-visible {
+  background-color: $primary-color;
+}
+
+.slider__button:hover::before,
+.slider__button:focus-visible::before {
+  border-color: $primary-color;
+}
+
+.slider__button:hover::after,
+.slider__button:focus-visible::after {
+  background-color: $primary-color;
+}
+
+.slider__button:active {
+  opacity: 60%;
+}
+
+.slider__button:active::before {
+  opacity: 60%;
+}
+
+.slider__button:active::after {
+  opacity: 60%;
 }

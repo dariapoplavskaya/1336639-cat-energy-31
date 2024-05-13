@@ -31,3 +31,9 @@
 .main-container__subscribe {
   padding: 40px 20px;
 }
+
+@media (min-width: $tablet-width) {
+  .main-container__promo {
+    margin-bottom: 0;
+  }
+}

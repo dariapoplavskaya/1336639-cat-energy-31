@@ -10,6 +10,7 @@
 
 .card__image-link {
   grid-area: image;
+  display: block;
 }
 
 .card__title-link {
@@ -17,6 +18,7 @@
   text-decoration: none;
   text-transform: uppercase;
   grid-area: title;
+  display: block;
 }
 
 .card__title {

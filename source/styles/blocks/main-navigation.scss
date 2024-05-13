@@ -35,11 +35,6 @@
   border: none;
   padding: 0;
   cursor: pointer;
-  display: none;
-}
-
-.main-navigation__toggle--open {
-  display: block;
 }
 
 .main-navigation__toggle::before {
@@ -51,6 +46,7 @@
   mask-image: url("../../icons/stack.svg#menu-button");
   mask-repeat: no-repeat;
   mask-position: center;
+  mask-size: 24px 24px;
 }
 
 .main-navigation__toggle:hover {
@@ -59,5 +55,10 @@
 
 .main-navigation__toggle:active {
   opacity: 30%;
+}
+
+.main-navigation__toggle--close::before {
+  mask-image: url("../../icons/stack.svg#close-button");
+  mask-size: 18px 18px;
 }
 

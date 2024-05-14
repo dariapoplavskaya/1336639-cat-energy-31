@@ -16,13 +16,9 @@
   @include font($primary-font, 14px, 20px, inherit);
 }
 
-.contacts__map {
-  width: 320px;
-  margin: 0 auto;
-}
-
 .contacts__location {
   display: block;
+  margin: 0 auto;
 }
 
 .contacts--accent {

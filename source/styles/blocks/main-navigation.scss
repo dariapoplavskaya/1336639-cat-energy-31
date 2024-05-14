@@ -16,15 +16,15 @@
   text-decoration: none;
 }
 
-.main-navigation__link:hover {
+.main-navigation__link:hover:not(.main-navigation__link--current) {
   opacity: 60%;
 }
 
-.main-navigation__link:focus-visible {
+.main-navigation__link:focus-visible:not(.main-navigation__link--current) {
   opacity: 60%;
 }
 
-.main-navigation__link:active {
+.main-navigation__link:active:not(.main-navigation__link--current) {
   opacity: 30%;
 }
 

@@ -31,3 +31,10 @@
 .copyright:active::after {
   opacity: 30%;
 }
+
+@media (min-width: $tablet-width) {
+  .copyright {
+    padding: 0;
+    gap: 23px;
+  }
+}

@@ -17,6 +17,10 @@
 }
 
 @media (min-width: $tablet-width) {
+  .programs {
+    padding: 0 30px;
+  }
+
   .programs__item:not(:last-child) {
     margin-bottom: 30px;
   }

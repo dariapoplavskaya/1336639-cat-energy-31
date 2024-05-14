@@ -28,3 +28,24 @@
 .contacts--accent {
   background-color: $accent-background;
 }
+
+@media (min-width: $tablet-width) {
+  .contacts__wrapper {
+    padding: 60px 70px;
+    gap: 308px;
+  }
+
+  .contacts__cooperation {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .contacts__address {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: end;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

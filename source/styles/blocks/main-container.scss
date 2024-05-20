@@ -68,10 +68,16 @@
 
 @media (min-width: $desktop-width) {
   .main-container__programs {
-    margin: 0 auto 20px;
+    margin: 0 auto 71px;
   }
 
   .main-container__benefits {
     border: none;
+    margin-bottom: 69px;
+  }
+
+  .main-container__example {
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom, #ffffff 135px, $accent-background 135px);
   }
 }

@@ -65,3 +65,9 @@
     padding: 80px 30px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .main-container__programs {
+    margin: 0 auto 20px;
+  }
+}

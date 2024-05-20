@@ -25,3 +25,19 @@
     margin-bottom: 30px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .programs {
+    max-width: $max-desktop-container;
+    padding: 0;
+  }
+
+  .programs__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .programs__item:not(:last-child) {
+    margin: 0;
+  }
+}

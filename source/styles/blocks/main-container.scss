@@ -67,6 +67,10 @@
 }
 
 @media (min-width: $desktop-width) {
+  .main-container__promo {
+    margin-bottom: 82px;
+  }
+
   .main-container__programs {
     margin: 0 auto 71px;
   }

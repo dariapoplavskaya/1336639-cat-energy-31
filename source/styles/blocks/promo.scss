@@ -76,26 +76,13 @@
 
 @media (min-width: $desktop-width) {
   .promo {
-    background-image:
-      linear-gradient(to right,
-      #ffffff 50vw,
-      $opacity-primary-color 50vw),
-      image-set(
-        url("../../images/promo-bg-desktop@2x.jpg") 2x,
-        url("../../images/promo-bg-desktop@1x.jpg") 1x
-      );
-    background-position: 50%, 50vw 50%;
-    background-size: cover, contain;
-    background-repeat: no-repeat;
     padding: 0;
-    min-height: 694px;
   }
 
   .promo__container {
     display: grid;
     grid-template-columns: 367px 552px;
-    grid-template-rows: 201px 112px 238px;
-    padding: 143px 331px 52px 80px;
+    padding: 0 331px 52px 80px;
     max-width: 1220px;
     margin: 0 auto;
   }

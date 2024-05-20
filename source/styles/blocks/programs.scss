@@ -6,14 +6,13 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
 }
 
 .programs__item {
   background-color: $accent-background;
-}
-
-.programs__item:not(:last-child) {
-  margin-bottom: 20px;
 }
 
 @media (min-width: $tablet-width) {
@@ -21,8 +20,8 @@
     padding: 0 30px;
   }
 
-  .programs__item:not(:last-child) {
-    margin-bottom: 30px;
+  .programs__list {
+    gap: 30px;
   }
 }
 
@@ -34,10 +33,12 @@
 
   .programs__list {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
   }
 
-  .programs__item:not(:last-child) {
-    margin: 0;
+  .programs__item {
+    min-width: 570px;
+    min-height: 374px;
   }
 }

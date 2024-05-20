@@ -1,3 +1,7 @@
+.main-container {
+  flex-grow: 1;
+}
+
 .main-container__heading {
   @include font($secondary-font, 36px, 36px, $heading-color);
   padding: 27px 20px 40px;

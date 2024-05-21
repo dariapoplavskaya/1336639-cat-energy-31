@@ -84,4 +84,13 @@
     margin: 0 auto;
     background-image: linear-gradient(to bottom, #ffffff 135px, $accent-background 135px);
   }
+
+  .main-container__heading {
+    margin: 45px auto 84px;
+    max-width: $max-desktop-container;
+  }
+
+  .main-container__catalog {
+    margin: 0 auto 71px;
+  }
 }

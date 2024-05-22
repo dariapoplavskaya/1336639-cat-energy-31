@@ -6,8 +6,13 @@
   text-transform: uppercase;
 }
 
+.cost__key {
+  max-width: 150px;
+}
+
 .cost__value {
   margin: 0;
+  max-width: 100px;
 }
 
 @media (min-width: $tablet-width) {
@@ -21,11 +26,13 @@
   .cost__key {
     font-size: 20px;
     line-height: 20px;
+    max-width: 200px;
   }
 
   .cost__value {
     font-size: 20px;
     line-height: 20px;
+    max-width: 200px;
   }
 }
 

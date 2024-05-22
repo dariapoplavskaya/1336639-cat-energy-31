@@ -2,11 +2,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .effect__item {
   display: flex;
   flex-direction: column-reverse;
+  max-width: 124px;
 }
 
 .effect__key {
@@ -29,7 +31,7 @@
   border: 1px solid #cdcdcd;
   border-radius: 3px;
   text-transform: uppercase;
-  min-width: 124px;
+  max-width: 124px;
 }
 
 @media (min-width: $tablet-width) {
@@ -39,7 +41,7 @@
   }
 
   .effect__item {
-    width: 162px;
+    max-width: 162px;
   }
 
   .effect__value {
@@ -62,7 +64,6 @@
   .effect {
     max-width: 366px;
     gap: 42px;
-    align-items: flex-start;
   }
 
   .effect__key {

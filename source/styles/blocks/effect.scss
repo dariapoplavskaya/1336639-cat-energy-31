@@ -39,7 +39,7 @@
   }
 
   .effect__item {
-    min-width: 162px;
+    width: 162px;
   }
 
   .effect__value {
@@ -60,9 +60,9 @@
 
 @media (min-width: $desktop-width) {
   .effect {
-    max-width: 436px;
+    max-width: 366px;
     gap: 42px;
-    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   .effect__key {

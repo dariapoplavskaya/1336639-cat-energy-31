@@ -15,12 +15,17 @@
   background-size: cover, 320px 302px;
 }
 
+.promo__container {
+  min-height: 480px;
+}
+
 .promo__heading {
   @include font($secondary-font, 36px, 36px, $light-text);
   padding-top: 27px;
   margin: 0;
   margin-bottom: 25px;
   text-align: center;
+  min-height: 72px;
 }
 
 .promo__slogan {
@@ -34,6 +39,7 @@
 .promo__image {
   display: block;
   margin: 0 auto;
+  min-height: 270px;
 }
 
 .promo__link {
@@ -54,6 +60,7 @@
     margin-left: 90px;
     margin-bottom: 40px;
     max-width: 430px;
+    min-height: 120px;
     text-align: left;
     padding: 0;
   }
@@ -73,6 +80,10 @@
     font-size: 20px;
     line-height: 26px;
     padding: 14px;
+  }
+
+  .promo__image {
+    min-height: 609px;
   }
 }
 
@@ -111,5 +122,9 @@
   .promo__link {
     position: unset;
     margin-bottom: auto;
+  }
+
+  .promo__image {
+    min-height: 499px;
   }
 }

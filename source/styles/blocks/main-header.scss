@@ -77,12 +77,12 @@
     min-width: $max-desktop-container;
     margin: 55px auto 29px;
     padding: 0;
-    align-items: flex-start;
   }
 
   .main-header__wrapper {
     margin-right: auto;
     min-width: 50%;
+    align-self: flex-start;
   }
 
   .main-header__logotype {

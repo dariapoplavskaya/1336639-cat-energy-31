@@ -91,6 +91,7 @@
 
   .additional-products__item:last-child {
     border-bottom: 1px solid #cdcdcd;
+    margin: 0;
   }
 
   .additional-products__heading {
@@ -113,5 +114,6 @@
   .additional-products__promotion {
     min-width: 245px;
     min-height: 288px;
+    align-self: flex-start;
   }
 }

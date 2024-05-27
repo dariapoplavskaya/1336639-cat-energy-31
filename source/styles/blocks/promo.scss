@@ -1,8 +1,8 @@
 .promo {
   background-image:
     linear-gradient(to bottom,
-    $opacity-primary-color 302px,
-    #ffffff 302px),
+    $opacity-primary-color 63%,
+    #ffffff 37%),
     image-set(
       url("../../images/promo-bg-mobile@2x.webp") type("image/webp") 2x,
       url("../../images/promo-bg-mobile@1x.webp") type("image/webp") 1x,
@@ -22,7 +22,7 @@
 
 .promo__heading {
   @include font($secondary-font, 36px, 36px, $light-text);
-  padding-top: 27px;
+  padding: 27px 20px 0;
   margin: 0;
   margin-bottom: 25px;
   text-align: center;
@@ -35,6 +35,7 @@
   margin: 0;
   margin-bottom: 29px;
   text-align: center;
+  padding: 0 20px;
 }
 
 .promo__image {
@@ -56,6 +57,11 @@
     padding: 40px 30px 0;
   }
 
+  .promo__container {
+    position: relative;
+    padding-bottom: 580px;
+  }
+
   .promo__heading {
     @include font($secondary-font, 60px, 60px, $heading-color);
     margin-left: 90px;
@@ -68,23 +74,29 @@
 
   .promo__slogan {
     @include font($secondary-font, 20px, 20px, $heading-color);
-    margin-left: 90px;
+    margin: 0 auto 50px 90px;
     text-align: left;
-  }
-
-  .promo__link {
-    position: absolute;
-    width: 244px;
-    margin: 0;
-    bottom: 526px;
-    left: 120px;
-    font-size: 20px;
-    line-height: 26px;
-    padding: 14px;
+    padding: 0;
   }
 
   .promo__image {
-    min-height: 609px;
+    display: block;
+    width: 709px;
+    height: 609px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .promo__link {
+    width: 244px;
+    margin: 0;
+    font-size: 20px;
+    line-height: 26px;
+    padding: 14px;
+    display: block;
+    position: absolute;
+    left: 90px;
   }
 }
 
@@ -104,6 +116,8 @@
   .promo__picture {
     grid-column: 2/3;
     grid-row: 1/4;
+    width: 552px;
+    height: 499px;
   }
 
   .promo__heading {
@@ -126,6 +140,8 @@
   }
 
   .promo__image {
-    min-height: 499px;
+    width: 552px;
+    height: 499px;
+    position: unset;
   }
 }

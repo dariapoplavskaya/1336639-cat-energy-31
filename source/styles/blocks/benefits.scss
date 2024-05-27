@@ -36,6 +36,7 @@
   height: 60px;
   background-color: $primary-color;
   flex-shrink: 0;
+  align-self: flex-start;
 }
 
 .benefits__item--nutrients::before {

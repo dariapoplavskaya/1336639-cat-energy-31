@@ -30,6 +30,8 @@
 
 .example__slider {
   margin: 0 auto;
+  width: 280px;
+  height: 256px;
 }
 
 @media (min-width: $tablet-width) {
@@ -53,6 +55,11 @@
     justify-content: space-between;
     margin-bottom: 99px;
     flex-flow: row wrap;
+  }
+
+  .example__slider {
+    width: 560px;
+    height: 512px;
   }
 }
 

@@ -41,8 +41,14 @@
 
   .main-footer__social {
     border: none;
+    max-width: 300px;
+  }
+
+  .main-footer__copyright {
+    max-width: 170px;
   }
 }
+
 
 @media (min-width: $desktop-width) {
   .main-footer {

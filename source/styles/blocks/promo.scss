@@ -108,6 +108,7 @@
   .promo__container {
     display: grid;
     grid-template-columns: 367px 552px;
+    grid-template-rows: 201px 112px auto;
     padding: 0 331px 52px 80px;
     max-width: $max-desktop-container;
     margin: 0 auto;

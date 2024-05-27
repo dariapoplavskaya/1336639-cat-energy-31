@@ -20,15 +20,15 @@
   margin: 0;
 }
 
-.product__title:hover {
+.product__title-link:hover {
   opacity: 60%;
 }
 
-.product__title:focus-visible {
+.product__title-link:focus-visible {
   opacity: 60%;
 }
 
-.product__title:active {
+.product__title-link:active {
   opacity: 30%;
 }
 

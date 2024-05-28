@@ -10,3 +10,15 @@
     gap: 13px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .logotype {
+    gap: 14px;
+  }
+
+  .logotype__name {
+    width: 118px;
+    height: 21px;
+  }
+}
+

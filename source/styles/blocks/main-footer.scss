@@ -1,12 +1,13 @@
 .main-footer__wrapper {
   background-color: $accent-background;
-  padding: 40px 20px;
+  padding: 20px;
 }
 
 .main-footer__logotype {
   display: block;
+  max-height: 63px;
   text-align: center;
-  padding-bottom: 19px;
+  padding: 20px 0 19px;
 }
 
 .main-footer__logotype:hover {

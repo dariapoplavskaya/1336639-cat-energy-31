@@ -136,8 +136,9 @@
   .program__link {
     font-size: 20px;
     line-height: 30px;
-    padding: 0;
     max-width: 340px;
+    padding: 4px 0;
+    gap: 25px;
   }
 
   .program--slim::before {

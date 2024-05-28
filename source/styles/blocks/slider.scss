@@ -85,6 +85,10 @@
   opacity: 60%;
 }
 
+.slider__button:disabled {
+  opacity: 0.3;
+}
+
 @media (min-width: $tablet-width) {
   .slider {
     grid-template-columns: 280px auto 280px;

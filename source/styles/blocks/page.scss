@@ -7,12 +7,8 @@
   min-width: 320px;
   margin: 0 auto;
   min-height: 100%;
-  display: grid;
-  grid-template-areas:
-    "header"
-    "main"
-    "footer";
-  grid-template-rows: auto 1fr auto;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: $desktop-width) {
@@ -42,10 +38,5 @@
   .page__main-header {
     min-width: $max-desktop-container;
     margin: 0 auto;
-    grid-area: header;
-  }
-
-  .page__main-footer {
-    grid-area: footer;
   }
 }

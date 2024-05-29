@@ -39,11 +39,16 @@
 
   .main-footer__logotype {
     padding: 0;
+    width: 128px;
+    height: 24px;
+    margin: 6px 0;
   }
 
   .main-footer__social {
     border: none;
     max-width: 300px;
+    margin: 9px 0 7px;
+    margin-left: 35px;
   }
 
   .main-footer__copyright {

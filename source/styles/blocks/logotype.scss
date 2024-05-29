@@ -8,7 +8,6 @@
 @media (min-width: $tablet-width) {
   .logotype {
     gap: 13px;
-    // align-items: stretch;
   }
 }
 
@@ -20,5 +19,6 @@
   .logotype__name {
     width: 118px;
     height: 21px;
+    align-self: center;
   }
 }

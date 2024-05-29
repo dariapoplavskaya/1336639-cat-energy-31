@@ -23,6 +23,10 @@
   align-items: center;
 }
 
+.benefits__description {
+  margin: 0;
+}
+
 .benefits__item-text {
   @media (max-width: calc($tablet-width - 1px)) {
     display: none;
@@ -88,8 +92,9 @@
 
   .benefits__list {
     counter-reset: benefits-counter;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 37px 137px;
   }
 

@@ -5,9 +5,23 @@
   align-items: stretch;
 }
 
+.logotype__name {
+  margin: 12px 0 7px 0;
+}
+
+.logotype__name--footer {
+  width: 128px;
+  height: 24px;
+  margin: 0;
+}
+
 @media (min-width: $tablet-width) {
   .logotype {
     gap: 13px;
+  }
+
+  .logotype__name {
+    margin: 0;
   }
 }
 
@@ -20,6 +34,7 @@
     width: 118px;
     height: 21px;
     align-self: center;
+    margin: 0;
   }
 
 .logotype__name--footer {

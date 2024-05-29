@@ -123,6 +123,7 @@
     left: 118px;
     z-index: -1;
     grid-area: 1/2/4/3;
+    align-self: flex-start;
   }
 
   .benefits__description {
@@ -147,10 +148,22 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 80px;
+    gap: 78px;
   }
 
-  .benefits__item {
-    max-width: 245px;
+  .benefits__item--nutrients {
+    width: 245px;
+  }
+
+  .benefits__item--consistency {
+    width: 245px;
+  }
+
+  .benefits__item--meal {
+    width: 247px;
+  }
+
+  .benefits__item--effect {
+    width: 249px;
   }
 }

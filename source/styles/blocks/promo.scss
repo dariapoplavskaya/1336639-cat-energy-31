@@ -9,7 +9,8 @@
   display: block;
   background-image:
     linear-gradient(to bottom,
-    $opacity-primary-color, $opacity-primary-color),
+    $opacity-primary-color,
+    $opacity-primary-color),
     image-set(
       url("../../images/promo-bg-mobile@2x.webp") type("image/webp") 2x,
       url("../../images/promo-bg-mobile@1x.webp") type("image/webp") 1x,

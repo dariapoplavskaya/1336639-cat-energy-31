@@ -93,8 +93,7 @@
   .benefits__list {
     counter-reset: benefits-counter;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     gap: 37px 137px;
   }
 
@@ -146,8 +145,7 @@
 
   .benefits__list {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     gap: 78px;
   }
 

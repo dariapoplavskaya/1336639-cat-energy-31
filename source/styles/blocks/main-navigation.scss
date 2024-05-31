@@ -59,6 +59,7 @@
   .main-navigation__list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
     gap: 33px;
     max-width: 500px;
   }
